@@ -5,6 +5,11 @@
 - Ther are two contents in the website
    1. Gradient color generator 
    2. Pick a color from your image.
+
+## Preview
+![alt text](https://github.com/manojrajm/colorpicker-gradientgntr/blob/main/assets/preview.png
+?raw=true)
+
 ## Technologies Used
 - HTML
 - CSS
