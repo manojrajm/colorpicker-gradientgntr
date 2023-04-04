@@ -13,12 +13,12 @@ window.onload = () => {
     pickColor.classList.remove("hide");
     eyeDropper = new EyeDropper();
   }
-  // } else {
-  //   error.classList.remove("hide");
-  //   error.innerText = "Your browser doesn't support Eyedropper API";
-  //   pickColor.classList.add("hide");
-  //   return false;
-  // }
+   else {
+    error.classList.remove("hide");
+    error.innerText = "Your browser doesn't support Eyedropper API";
+    pickColor.classList.add("hide");
+    return false;
+  }
 };
 
 const colorSelector = async () => {
